@@ -1,0 +1,19 @@
+public class DifferentOrs {
+    public static void main(String []args){
+        int x=10,y=15;
+        if(x++ < 10 | y++ >15){
+            x++;
+        }
+        else{
+            y++;
+        }
+        System.out.println(x+"and"+y);
+        // if(x++ < 10 || y++ >15){
+        //     x++;
+        // }
+        // else{
+        //     y++;
+        // }
+        // System.out.println(x+"and"+y);
+    }
+}
