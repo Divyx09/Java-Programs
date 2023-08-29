@@ -5,6 +5,7 @@ class Exception_handling {
   
         int divideByZero = 5 / 0;
         System.out.println("Rest of code in try block");
+        System.out.println(divideByZero);
       }
       
       catch (ArithmeticException e) {

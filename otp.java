@@ -5,7 +5,7 @@ public class otp {
         
         int number ;
         Random random = new Random();
-        number = random.nextInt(999abc);
+        number = random.nextInt(999);
 
         System.out.println("Your OTP is " +number);
     }

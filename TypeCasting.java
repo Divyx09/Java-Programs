@@ -1,3 +1,5 @@
+package Practise_Sessions1.src;
+
 public class TypeCasting {
     public static void main(String[] agrs){
     int x=10;
